@@ -31,8 +31,8 @@ int main()
                 ans[s.top()] = v[i];
                 s.pop();
             }
+            s.push(i);
         }
-        s.push(i);
     }
     while (!s.empty())
     {
